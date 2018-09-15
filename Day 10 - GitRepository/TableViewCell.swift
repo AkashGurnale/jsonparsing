@@ -10,6 +10,9 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
 
+    @IBOutlet var lblPassword: UILabel!
+    @IBOutlet var lblUserID: UILabel!
+    @IBOutlet var lblTitle: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

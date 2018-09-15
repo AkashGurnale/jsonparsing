@@ -56,15 +56,55 @@
 		41D53CA5214CF2D000C1D66C /* Day 10 - GitRepository */ = {
 			isa = PBXGroup;
 			children = (
-				41D53CA6214CF2D000C1D66C /* AppDelegate.swift */,
-				41D53CA8214CF2D000C1D66C /* ViewController.swift */,
-				41D53CAA214CF2D100C1D66C /* Main.storyboard */,
-				41D53CBA214CF43E00C1D66C /* TableViewCell.swift */,
+				41D53CBC214D111800C1D66C /* AppDelegate */,
+				41D53CBE214D115000C1D66C /* MVC */,
 				41D53CAD214CF2D100C1D66C /* Assets.xcassets */,
 				41D53CAF214CF2D100C1D66C /* LaunchScreen.storyboard */,
 				41D53CB2214CF2D100C1D66C /* Info.plist */,
 			);
 			path = "Day 10 - GitRepository";
+			sourceTree = "<group>";
+		};
+		41D53CBC214D111800C1D66C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				41D53CA6214CF2D000C1D66C /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		41D53CBE214D115000C1D66C /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				41D53CC1214D118C00C1D66C /* Model */,
+				41D53CC0214D117300C1D66C /* View */,
+				41D53CBF214D116500C1D66C /* Controller */,
+			);
+			name = MVC;
+			sourceTree = "<group>";
+		};
+		41D53CBF214D116500C1D66C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				41D53CAA214CF2D100C1D66C /* Main.storyboard */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		41D53CC0214D117300C1D66C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41D53CBA214CF43E00C1D66C /* TableViewCell.swift */,
+				41D53CA8214CF2D000C1D66C /* ViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		41D53CC1214D118C00C1D66C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
